@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE Motor[
+	<!ELEMENT Motor (lampu, ban, stang, handgrip, rem )>
+	<!ELEMENT lampu (#PCDATA)>
+	<!ELEMENT ban (banDepan, banBelakang)>
+	<!ELEMENT banDepan (#PCDATA)>
+	<!ELEMENT banBelakang (#PCDATA)>
+	<!ELEMENT stang (#PCDATA)>
+	<!ELEMENT handgrip (#PCDATA)>
+	<!ELEMENT rem (#PCDATA)>
+]>
+
+<Motor>
+	<lampu>HID</lampu>
+	<ban>
+		<banDepan>IRC 90/90 - 17</banDepan>
+		<banBelakang>IRC 100/90 - 17</banBelakang>
+	</ban>
+		<stang>Protapper</stang>
+		<handgrip>Rizoma Luxury</handgrip>
+		<rem>Brembo double disk</rem>
+</Motor>
